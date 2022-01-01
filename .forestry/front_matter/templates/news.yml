@@ -1,4 +1,3 @@
-<<<<<<< HEAD:.forestry/front_matter/templates/news.yml
 ---
 label: news
 hide_body: false
@@ -21,27 +20,3 @@ fields:
 - type: list
   name: categories
   label: categories
-=======
----
-label: blog
-hide_body: false
-fields:
-- type: text
-  name: title
-  label: title
-- type: datetime
-  name: date
-  label: date
-- type: text
-  name: description
-  label: description
-- type: image_gallery
-  name: images
-  label: images
-- type: list
-  name: tags
-  label: tags
-- type: list
-  name: categories
-  label: categories
->>>>>>> 933a43b36f22fc3c96495b619cd20dc6e5db12b9:.forestry/front_matter/templates/blog.yml
