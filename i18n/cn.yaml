@@ -1,0 +1,77 @@
+- id: search_placeholder
+  translation: 在此处输入然后按下 Enter...
+
+- id: our_instagram
+  translation: 我们的 Instagram
+
+- id: name
+  translation: 你的名字
+
+- id: email
+  translation: Email 地址
+
+- id: subject
+  translation: 话题
+
+- id: message
+  translation: 你的消息
+
+- id: send_message
+  translation: 发送消息
+
+- id: search_result_for
+  translation: 搜索结果
+
+- id: you_may_also_like
+  translation: 你也许会喜欢
+
+- id: recent_post
+  translation: 最近内容
+
+- id: written_by
+  translation: 作者
+
+- id: read_more
+  translation: 继续阅读
+
+- id: read_article
+  translation: 阅读
+
+- id: showing_posts_from
+  translation: 显示内容
+
+- id: home
+  translation: 首页
+
+- id: search
+  translation: 搜索
+
+- id: categories
+  translation: 分类
+
+- id: tags
+  translation: 标签
+
+- id: tag
+  translation: 标签
+
+- id: category
+  translation: 分类
+
+- id: social
+  translation: 社交网络
+
+- id: copyright-text
+  translation: 版权
+
+- id: my_name_is
+  translation: 我的名字
+
+- id: enter_your_email
+  translation: 输入你的 email
+
+- id: subscribe_title
+  translation: 订阅
+
+- id: about_me
+  translation: 关于我们
