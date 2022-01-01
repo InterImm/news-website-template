@@ -2,38 +2,28 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url: 
+webhook_url:
 sections:
 - type: heading
   label: Single Pages
 - type: directory
-  path: exampleSite/content/english
-  label: Pages (en)
-  create: all
-  match: "*"
-- type: directory
-  path: exampleSite/content/french
-  label: Pages (fr)
+  path: content/
+  label: Pages (CN)
   create: all
   match: "*"
 - type: heading
   label: Blog Post
 - type: directory
-  path: exampleSite/content/english/blogs
-  label: Blogs (en)
-  create: all
-  match: "**/*"
-- type: directory
-  path: exampleSite/content/french/blogs
-  label: Blogs (fr)
+  path: content/news
+  label: News (CN)
   create: all
   match: "**/*"
 - type: heading
   label: Configuration
 - type: document
-  path: exampleSite/config.toml
+  path: config.toml
   label: Configuration
-upload_dir: exampleSite/static/images
+upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
@@ -43,7 +33,7 @@ build:
   - HUGO_VERSION=0.76.5
   - HUGO_BASEURL=/
   - HUGO_ENV=staging
-  preview_output_directory: exampleSite/public
+  preview_output_directory: public
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
