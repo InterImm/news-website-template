@@ -3,7 +3,8 @@ name: Deploy Website
 on:
   push:
     branches:
-      - hugo
+      - main
+      - master
   workflow_dispatch:
     inputs:
       name:
