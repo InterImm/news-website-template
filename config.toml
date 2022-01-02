@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "/"
+baseURL = "/news-website-template"
 title = "新闻"
 theme = "editor"
 # post pagination
