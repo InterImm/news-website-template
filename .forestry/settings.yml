@@ -2,12 +2,12 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url:
+webhook_url: 
 sections:
 - type: heading
   label: Single Pages
 - type: directory
-  path: content/
+  path: content
   label: Pages (CN)
   create: all
   match: "*"
@@ -37,6 +37,6 @@ build:
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: cd exampleSite/ && hugo server -D -E -F --port 8080 --bind
-    0.0.0.0 --renderToDisk -d public
+  instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
+    -d public
 version: 0.76.5
