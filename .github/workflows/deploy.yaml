@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - hugo
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Deploy!!'
+        required: false
+        default: 'just deploy it'
 
 jobs:
   deploy:
